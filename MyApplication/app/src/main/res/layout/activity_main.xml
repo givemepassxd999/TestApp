@@ -15,6 +15,8 @@
         android:id="@+id/text_view"
         android:text="Hello World!" />
     <Button
+        android:layout_below="@id/text_view"
+        android:text="push me"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
