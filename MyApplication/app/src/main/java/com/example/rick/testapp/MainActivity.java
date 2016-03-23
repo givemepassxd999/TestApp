@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 str = new String("Aa");
+
                 str.toLowerCase();
                 Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
             }
